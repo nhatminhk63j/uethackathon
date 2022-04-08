@@ -1,3 +1,132 @@
-img {
-  width: 100%;
+body {
+  color: #224344;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.logo {
+  color: #224344;
+}
+
+.logo-slogan {
+  font-weight: bold;
+}
+
+.register {
+  margin-top: 2em;
+}
+
+.timer {
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+  background-color: #224344;
+  border-radius: 15px;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.timer > div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+.timer > div > span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 400;
+}
+
+.call-to-register {
+  background-color: #224344;
+  color: white;
+  padding: 1rem 0;
+  margin: 1rem 3rem;
+  border-radius: 0.5rem;
+}
+
+.call-to-register .register-now {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.call-to-register .register-now:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.call-to-register > h2 {
+  font-weight: bold;
+}
+
+.introduction {
+  margin-top: 4rem;
+  border: 0.5rem solid #224344;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.introduction h2 {
+  font-weight: bold;
+}
+
+.introduction-description {
+  font-size: 1.2rem;
+}
+
+.reason {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.reason p {
+  font-size: 1.2rem;
+}
+
+.join-condition div {
+  font-size: 1.5rem;
+}
+
+.join-condition i {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.prize {
+  margin-top: 3rem;
+}
+
+.prize-column {
+  background-color: #224344;
+  color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.prize-item {
+  background-color: white;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #224344;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+
+.other-prize {
+  font-size: 1.5rem;
 }
