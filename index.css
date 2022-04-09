@@ -33,6 +33,7 @@ h1 {
   font-weight: bold;
   padding-top: 1em;
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .timer > div {
@@ -55,21 +56,25 @@ h1 {
   border-radius: 0.5rem;
 }
 
-.call-to-register .register-now {
+.register-now {
   border: none;
   background-color: white;
   font-weight: bold;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  display: block;
+  color: #224344;
+  text-shadow: none;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
-.call-to-register .register-now:hover {
-  cursor: pointer;
+.register-now:hover {
   transform: scale(1.1);
-}
-
-.call-to-register > h2 {
-  font-weight: bold;
+  text-decoration: none;
+  color: #224344;
 }
 
 .introduction {

@@ -14,6 +14,7 @@ function updateDataScienceTimer() {
   s = secs - mins * 60;
 
   document.getElementById("data-science-timer").innerHTML =
+    "<h2>DATA SCIENCE</h2>" +
     "<div>" +
     d +
     "<span>NGÀY</span></div>" +
@@ -25,7 +26,8 @@ function updateDataScienceTimer() {
     "<span>PHÚT</span></div>" +
     "<div>" +
     s +
-    "<span>GIÂY</span></div>";
+    "<span>GIÂY</span></div>" +
+    `<a class="register-now" href="" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
 }
 setInterval("updateDataScienceTimer()", 1000);
 
@@ -45,6 +47,7 @@ function updateSoftwareEngineeringTimer() {
   s = secs - mins * 60;
 
   document.getElementById("software-engineering-timer").innerHTML =
+    "<h2>SOFTWARE ENGINEERING</h2>" +
     "<div>" +
     d +
     "<span>NGÀY</span></div>" +
@@ -56,6 +59,7 @@ function updateSoftwareEngineeringTimer() {
     "<span>PHÚT</span></div>" +
     "<div>" +
     s +
-    "<span>GIÂY</span></div>";
+    "<span>GIÂY</span></div>" +
+    `<a class="register-now" href="" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
 }
 setInterval("updateSoftwareEngineeringTimer()", 1000);
