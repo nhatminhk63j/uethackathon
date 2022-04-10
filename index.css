@@ -16,6 +16,72 @@ h1 {
   font-size: 32px;
 }
 
+/* Create a sticky/fixed navbar */
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+  padding: 2rem;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  color: #224344;
+  text-align: center;
+  padding: 12px;
+  /* text-decoration: none; */
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+  /* background-color: #224344; */
+  /* color: white; */
+  text-decoration: #224344;
+}
+
+/* Style the active/current link */
+#navbar a.active {
+  background-color: #224344;
+  color: white;
+}
+
+/* Display some links to the right */
+#navbar-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  #navbar-right {
+    float: none;
+  }
+  .header {
+    margin-top: 200px;
+  }
+}
+
+.header {
+  margin-top: 150px;
+}
+
 .logo {
   color: #224344;
 }
@@ -342,3 +408,14 @@ h1 {
   padding: 1rem 0;
   border-radius: 2rem;
 } */
+
+#hackathon-contact {
+  color: white;
+  background-color: #224344;
+  padding: 40px 20px;
+}
+
+#hackathon-contact a {
+  text-decoration: white !important;
+  color: rgb(67, 198, 238);
+}

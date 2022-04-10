@@ -24,19 +24,29 @@
     <title>UET HACKATHON 2022</title>
   </head>
   <body>
-    <div class="logo container text-center">
+    <div id="navbar">
+      <b class="nav-logo">
+        <img width="64" src="/images/logo.png" alt="logo" />
+        <b>UET HACKATHON 2022</b>
+      </b>
+      <div id="navbar-right">
+        <a href="#hackathon-register">ĐĂNG KÝ NGAY</a>
+        <a href="#hackathon-contact">LIÊN HỆ</a>
+      </div>
+    </div>
+    <div class="header logo container text-center" id="hackathon-register">
       <img width="200" src="/images/logo.png" alt="logo" />
       <h1>UET HACKATHON 2022</h1>
 
-      <h2 class="logo-slogan">Tốc độ - Sáng tạo - Ứng dụng</h2>
+      <h2 class="logo-slogan">TỐC ĐỘ - SÁNG TẠO - ỨNG DỤNG</h2>
     </div>
 
-    <div class="container register">
+    <div class="container">
       <div class="row text-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6 register">
           <div id="data-science-timer" class="timer"></div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 register">
           <div id="software-engineering-timer" class="timer"></div>
         </div>
       </div>
@@ -123,7 +133,7 @@
         </div>
       </div>
 
-      <div class="row text-left align-items-center">
+      <div class="row text-left align-items-center mt-3">
         <div class="col-1"><i class="bi bi-check2-circle"></i></div>
         <div class="col-11">
           Trong một đội ít nhất phải có 1 thành viên đến từ Đại học Công nghệ -
@@ -131,7 +141,7 @@
         </div>
       </div>
 
-      <div class="row text-left align-items-center">
+      <div class="row text-left align-items-center mt-3">
         <div class="col-1"><i class="bi bi-check2-circle"></i></div>
         <div class="col-11">
           Đồng ý và Ký cam kết tuân theo các Điều khoản và Quy tắc Chính thức
@@ -144,8 +154,8 @@
     <div class="prize container text-center">
       <h2>Giải thưởng và lợi ích đến từ cuộc thi</h2>
 
-      <div class="row text-center mt-4">
-        <div class="prize-column col-lg-5">
+      <div class="row text-center">
+        <div class="prize-column col-lg-5 mt-4">
           <h3>DATA SCIENCE</h3>
           <div class="prize-list text-left">
             <div class="prize-item">
@@ -183,7 +193,7 @@
           </div>
         </div>
         <div class="col-lg-2"></div>
-        <div class="prize-column col-lg-5">
+        <div class="prize-column col-lg-5 mt-4">
           <h3>SOFTWARE ENGNEERING</h3>
           <div class="prize-list text-left">
             <div class="prize-item">
@@ -230,8 +240,7 @@
         </div>
       </div>
       <div class="other-prize">
-        <div class="row">
-          <div class="col-2"></div>
+        <div class="row justify-content-center">
           <div class="col-8">
             <div class="row text-left align-items-center mt-3">
               <div class="col-1"><i class="bi bi-check2-circle"></i></div>
@@ -258,8 +267,6 @@
                 Cùng muôn vàn các phần quà, voucher đến từ các nhà tài trợ.
               </div>
             </div>
-          </div>
-          <div class="col-2"></div>
         </div>
       </div>
     </div>
@@ -269,7 +276,7 @@
       <div class="timeline">
         <div class="timeline-row">
           <div class="timeline-time">
-            26/3/2022<small>19 giờ 30 phút</small>
+            02/4/2022<small>14 giờ 00 phút</small>
           </div>
           <div class="timeline-content">
             <h4>Workshop 1</h4>
@@ -286,7 +293,7 @@
 
         <div class="timeline-row">
           <div class="timeline-time">
-            02/4/2022<small>19 giờ 30 phút</small>
+            09/4/2022<small>14 giờ 00 phút</small>
           </div>
           <div class="timeline-content">
             <h4>Workshop 2</h4>
@@ -305,9 +312,9 @@
         </div>
 
         <div class="timeline-row">
-          <div class="timeline-time">04/4/2022<small>8 giờ 30</small></div>
+          <div class="timeline-time">12/4 - 22/04/2022<small>8 giờ 30</small></div>
           <div class="timeline-content">
-            <h4>Hackathon: Data Science</h4>
+            <h4>Data Science</h4>
             <p>
               Đề thi xung quanh các bài toán data trong doanh nghiệp, học thuật
               trên nền tảng Kaggle.
@@ -317,7 +324,7 @@
 
         <div class="timeline-row">
           <div class="timeline-time">
-            09/4/2022<small>19 giờ 30 phút</small>
+            16/4/2022<small>14 giờ 00 phút</small>
           </div>
           <div class="timeline-content">
             <h4>Workshop 3</h4>
@@ -337,31 +344,30 @@
 
         <div class="timeline-row">
           <div class="timeline-time">
-            18/4/2022<small>19 giờ 30 phút</small>
+            17/4/2022<small>8 giờ 30 phút</small>
           </div>
           <div class="timeline-content">
-            <h4>Vòng đơn: Software Engineering</h4>
+            <h4>Software Engineering</h4>
             <p class="no-margin">
-              Lọc ý tưởng từ các đội, chọn các đội xuất sắc nhất vào vòng chung
-              kết trong phần thi Software Engineering
+              Công bố nội dung / chủ đề phần thi Software Engineering
             </p>
           </div>
         </div>
 
         <div class="timeline-row">
           <div class="timeline-time">
-            19/04/2022 - 22/04/2022<small></small>
+            17/04 - 21/04/2022<small></small>
           </div>
           <div class="timeline-content">
-            <h4>Hackathon: Software Engineering</h4>
+            <h4>Software Engineering</h4>
             <p>Các đội thi xây dựng prototype của sản phẩm.</p>
           </div>
         </div>
 
         <div class="timeline-row">
-          <div class="timeline-time">23/04/2022<small></small></div>
+          <div class="timeline-time">22/04 - 23/04/2022<small></small></div>
           <div class="timeline-content">
-            <h4>Hackathon: Software Engineering</h4>
+            <h4>Software Engineering</h4>
             <p>
               Các đội thi hoàn thiện sản phẩm của mình tại địa điểm thi do BTC
               sắp xếp.
@@ -426,8 +432,14 @@
       <h2>Doanh nghiệp tài trợ</h2>
 
       <h4 class="mt-5 mb-3">Nhà tài trợ vàng</h4>
-      <div class="row align-items-center">
-        <div class="col-3"></div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="images/sponsors/viettel-logo.png"
+            alt="Viettel"
+          />
+        </div>
         <div class="col-3">
           <img
             class="img-fluid"
@@ -439,10 +451,9 @@
           <img
             class="img-fluid"
             src="images/sponsors/vng-logo.png"
-            alt="Teko"
+            alt="VNG"
           />
         </div>
-        <div class="col-3"></div>
       </div>
 
       <h5 class="mt-5 mb-3">Nhà tài trợ bạc</h5>
@@ -465,7 +476,7 @@
         <div class="col-2">
           <img
             class="img-fluid"
-            src="images/sponsors/luvina-logo.jpg"
+            src="images/sponsors/luvina-logo.png"
             alt="Teko"
           />
         </div>
@@ -485,9 +496,25 @@
       </div>
     </div>
 
+    <div id="hackathon-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img width="64" src="/images/logo-white.png" alt="logo" />
+          </div>
+          <div class="col-6 text-left">
+            <div>Số điện thoại: <a type="phone">0384721376</a></div>
+            <div>Facebook: <a href="https://www.facebook.com/ttsv.fit.uet" target="blank">https://www.facebook.com/ttsv.fit.uet</a></div>
+            <div>Email: <a type="email">lcdkcntt@gmail.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <script src="./index.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
