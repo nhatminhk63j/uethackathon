@@ -1,5 +1,5 @@
 function updateDataScienceTimer() {
-  future = Date.parse("April 23, 2022 11:30:00");
+  future = Date.parse("April 23, 2022 23:59:59");
   now = new Date();
   diff = future - now;
 
@@ -27,12 +27,12 @@ function updateDataScienceTimer() {
     "<div>" +
     s +
     "<span>GIÂY</span></div>" +
-    `<a class="register-now" href="" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
+    `<a class="register-now" href="https://forms.gle/CbRhMo6KuYNkSZts8" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
 }
 setInterval("updateDataScienceTimer()", 1000);
 
 function updateSoftwareEngineeringTimer() {
-  future = Date.parse("April 17, 2022 11:30:00");
+  future = Date.parse("April 17, 2022 23:59:59");
   now = new Date();
   diff = future - now;
 
@@ -60,7 +60,7 @@ function updateSoftwareEngineeringTimer() {
     "<div>" +
     s +
     "<span>GIÂY</span></div>" +
-    `<a class="register-now" href="" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
+    `<a class="register-now" href="https://forms.gle/yXQC3UheHYt2T4ks9" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ NGAY</a>`;
 }
 setInterval("updateSoftwareEngineeringTimer()", 1000);
 
