@@ -1,5 +1,5 @@
 function updateDataScienceTimer() {
-  future = Date.parse("April 23, 2022 23:59:59");
+  future = Date.parse("April 22, 2022 23:59:59");
   now = new Date();
   diff = future - now;
 
