@@ -32,7 +32,7 @@ function updateDataScienceTimer() {
 setInterval("updateDataScienceTimer()", 1000);
 
 function updateSoftwareEngineeringTimer() {
-  future = Date.parse("April 17, 2022 23:59:59");
+  future = Date.parse("April 20, 2022 23:59:59");
   now = new Date();
   diff = future - now;
 
